@@ -11,8 +11,7 @@ typedef struct node {                                   // estructura de la list
 void show_help(){                                       // funcion de ayuda cuando hay errores
     printf( "Uso: surix_word_sorter [input_file] [output_file]\n"
             "   [input_file]    -   archivo con el contenido a ordenar\n"
-            "   [output_file]   -   archivo de salida con las palabras ordenadas\n"
-            "\nPrograma creado por Dante Acosta\n");
+            "   [output_file]   -   archivo de salida con las palabras ordenadas\n";
 }
 
 int save_list(node_t **header, char* filename) {        // guarda toda la lista linkeada en un archivo especificado
@@ -221,7 +220,7 @@ int main(int argc, char *argv[]){
     }
     free(split_data);
 
-    printf("[i] Completado. Programa creado por Dante Acosta. Saliendo...\n");
+    printf("[i] Completado. Saliendo...\n");
 
     return 0;                                           // fin del programa
 }
