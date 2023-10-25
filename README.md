@@ -1,3 +1,3 @@
 # TXT-Word-Sorter
 
-Read the story to know more :) >> https://flareonzverse.blogspot.com/2023/07/back-to-roots-behind-pythons-sorting.html
+This was a programming challenge I had to solve for a job position. [Read the story on my blog!](https://flareonz44.github.io/behind-python-sorting-function)
